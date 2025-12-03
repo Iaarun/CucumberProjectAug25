@@ -5,6 +5,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
+/***
+ *  Singleton design pattern to manage WebDriver instance
+ *     - private constructor
+ *     - static method to get the instance
+ */
 public class BrowserManager {
   //  WebDriver driver;
     private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();

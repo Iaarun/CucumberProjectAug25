@@ -2,5 +2,4 @@
 # CucumberProjectAug25
 this is the readme file
 =======
-   
->>>>>>> Stashed changes
+this is readme file for the project description
